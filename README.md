@@ -9,8 +9,7 @@ THIS PROJECT IS UNDER DEVELOPEMENT , BUGS ARE EXPECTED!!!
 manager.py              # main memory manager (handles short/medium/long)
 files/                  # all memory files stored here
     ├── short/
-    │   ├── buffer.json     # stores last 20–50 convos
-    │   └── embeddings.pt   # torch tensors for similarity
+    │   └── mem.pt # torch tensors for similarity
     │
     ├── medium/
     │   ├── summaries.json  # compressed summaries of short-term
